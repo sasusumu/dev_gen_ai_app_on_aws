@@ -1,6 +1,8 @@
 # 実行 streamlit run your_script.py --server.port 8082
 # 実行時に表示される Faild to detach context のエラーは下記の Bug の可能性
 # https://github.com/google/adk-python/issues/1670
+# pip install streamlit ddgs strands-agents strands-agents-tools 
+# streamlit run StrandsAgentsToolStreamlit.py --server.baseUrlPath /jupyterlab/default/proxy/absolute/8501
 
 import uuid
 import json
